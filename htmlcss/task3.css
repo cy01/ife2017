@@ -15,7 +15,7 @@ span{
     position: relative;
     bottom:70px;
 }
-/* ×óÓÒfloat ÖĞ¼ä div ·ÅºóÃæ
+/* å·¦å³float ä¸­é—´ div æ”¾åé¢
 .middle{
     margin: 0 160px 0 240px;
     padding: 20px;
@@ -35,7 +35,7 @@ span{
     text-align: center;
 }
 */
-/* ×óÓÒabsolute ²¢ÇÒtop left right µÈ¼ÓÉÏÍâ²ãmargin Óë padding µÄÖµ
+/* å·¦å³absolute å¹¶ä¸”top left right ç­‰åŠ ä¸Šå¤–å±‚margin ä¸ padding çš„å€¼
 .middle{
     margin: 0 160px 0 240px;
     padding: 20px;
@@ -67,19 +67,22 @@ span{
     padding: 20px;
     margin:0 170px 0 250px;
     background-color: #fff;
+    border:1px solid #999;
 }
 .left{
     float: left;
     padding: 20px;
     width: 200px;
-    margin-left: -100%; /*ÒòÎªmain Õ¼ÁË100% ¿í¶È£¬ËùÒÔleftÔÚÏÂÒ»ĞĞ£¬ÉÏÒ»ĞĞ¿¿×óĞèÅ²Ò»Õû¸ö´°¿Ú*/
+    margin-left: -100%; /*å› ä¸ºmain å äº†100% å®½åº¦ï¼Œæ‰€ä»¥leftåœ¨ä¸‹ä¸€è¡Œï¼Œä¸Šä¸€è¡Œé å·¦éœ€æŒªä¸€æ•´ä¸ªçª—å£*/
     background-color: #fff;
+    border:1px solid #999;
 }
 .right{
     float: left;
     padding: 20px;
     width: 120px;
-    margin-left: -160px;/* ¸¸µÄÖµÊÇ×ÔÉí¿í¶È */
+    margin-left: -160px;/* çˆ¶çš„å€¼æ˜¯è‡ªèº«å®½åº¦ */
     text-align: center;
     background-color: #fff;
+    border:1px solid #999;
 }
