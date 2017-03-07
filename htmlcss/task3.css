@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 20px;
+    border-color: #999;
+    background-color: #eee;
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+.logoT,.logoP{
+    margin: 10px;
+}
+span{
+    position: relative;
+    bottom:70px;
+}
+/* 左右float 中间 div 放后面
+.middle{
+    margin: 0 160px 0 240px;
+    padding: 20px;
+    background-color: #00CC00;
+}
+.left{
+    float: left;
+    padding: 20px;
+    width: 200px;
+    background-color: #1f1d1d;
+}
+.right{
+    float: right;
+    padding: 20px;
+    width: 120px;
+    background-color: #1f1d1d;
+    text-align: center;
+}
+*/
+/* 左右absolute 并且top left right 等加上外层margin 与 padding 的值
+.middle{
+    margin: 0 160px 0 240px;
+    padding: 20px;
+    background-color: #00CC00;
+}
+.left{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 20px;
+    width: 200px;
+    background-color: #1f1d1d;
+}
+.right{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 20px;
+    width: 120px;
+    background-color: #1f1d1d;
+    text-align: center;
+}
+*/
+.main{
+    width: 100%;
+    float: left;
+}
+.middle{
+    padding: 20px;
+    margin:0 170px 0 250px;
+    background-color: #fff;
+}
+.left{
+    float: left;
+    padding: 20px;
+    width: 200px;
+    margin-left: -100%; /*因为main 占了100% 宽度，所以left在下一行，上一行靠左需挪一整个窗口*/
+    background-color: #fff;
+}
+.right{
+    float: left;
+    padding: 20px;
+    width: 120px;
+    margin-left: -160px;/* 父的值是自身宽度 */
+    text-align: center;
+    background-color: #fff;
+}
