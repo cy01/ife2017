@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 20px;
-    border-color: #999;
+    background-color: #eee;
     border:1px solid #999;
 }
 
@@ -98,7 +98,7 @@ span{
     float: left;
     padding: 20px;
     width: 120px;
-    margin-left: -164px;/* 父的值是自身宽度 120+20*2+1*4/
+    margin-left: -164px;/* 父的值是自身宽度 120+20*2+1*4 */
     text-align: center;
     background-color: #fff;
     border:1px solid #999;
