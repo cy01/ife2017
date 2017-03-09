@@ -4,6 +4,23 @@ body{
     border-color: #999;
     background-color: #eee;
 }
+
+/* 
+    clearfix方法 清除子类float带来的父类崩塌
+    在需要清除 float 带来影响的父类加类，推荐类名 group
+    本文件暂时直接用 body 来苟且
+*/
+body:before,body:after{
+    content:"";
+    display:table;
+}
+body:after{
+    clear:both;
+}
+body{
+    *zoom:1;
+}
+
 img{
     width: 80px;
     height: 80px;
